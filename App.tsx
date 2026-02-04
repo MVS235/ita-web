@@ -8,6 +8,7 @@ import VisionMission from './components/VisionMission';
 import Machinery from './components/Machinery';
 import Products from './components/Products';
 import Customers from './components/Customers';
+import AskOffer from './components/AskOffer';
 import Contact from './components/Contact';
 import Logo from './components/Logo';
 import LegalModal from './components/LegalModal';
@@ -73,6 +74,10 @@ const App: React.FC = () => {
         
         <section id="customers" className="py-20 bg-white overflow-hidden">
           <Customers t={t} />
+        </section>
+
+        <section id="offer" className="py-20 bg-slate-50">
+          <AskOffer t={t} />
         </section>
         
         <section id="contact" className="py-20 bg-slate-50 border-t border-slate-200">

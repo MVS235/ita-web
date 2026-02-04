@@ -140,6 +140,14 @@ export const translations: Record<Language, TranslationContent> = {
       clientNames: [clientList],
       logos: partnerLogos
     },
+    askOffer: {
+      title: "Dapatkan Penawaran Khusus",
+      subtitle: "Hubungi tim penjualan kami untuk mendapatkan harga terbaik sesuai kebutuhan volume bisnis Anda.",
+      namePlaceholder: "Nama Anda / Nama Perusahaan",
+      waPlaceholder: "Nomor WhatsApp",
+      buttonText: "Dapatkan Penawaran Via WhatsApp",
+      successMessage: "Mengarahkan ke WhatsApp..."
+    },
     contact: {
       title: "Hubungi Kami",
       subtitle: "Kami siap melayani kebutuhan perekat industri Anda di seluruh Indonesia.",
@@ -274,6 +282,14 @@ export const translations: Record<Language, TranslationContent> = {
       types: [],
       clientNames: [clientList],
       logos: partnerLogos
+    },
+    askOffer: {
+      title: "Request a Special Offer",
+      subtitle: "Contact our sales team to get the best pricing tailored to your business volume needs.",
+      namePlaceholder: "Your Name / Company Name",
+      waPlaceholder: "WhatsApp Number",
+      buttonText: "Get Offer via WhatsApp",
+      successMessage: "Redirecting to WhatsApp..."
     },
     contact: {
       title: "Contact Us",

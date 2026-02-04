@@ -80,6 +80,14 @@ export interface TranslationContent {
     clientNames: string[][];
     logos: string[];
   };
+  askOffer: {
+    title: string;
+    subtitle: string;
+    namePlaceholder: string;
+    waPlaceholder: string;
+    buttonText: string;
+    successMessage: string;
+  };
   contact: {
     title: string;
     subtitle: string;
